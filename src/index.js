@@ -1,2 +1,3 @@
 import './style.css';
-console.log('Init the application')
+import listRecentScores from './modules/scores.js';
+listRecentScores();
