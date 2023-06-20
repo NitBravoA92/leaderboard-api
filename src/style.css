@@ -20,3 +20,12 @@ body {
   font-style: normal;
   font-weight: 400;
 }
+
+header,
+main {
+  padding: 2rem 2.5rem;
+}
+
+#page-title {
+  font-size: 4em;
+}
