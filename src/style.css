@@ -91,6 +91,21 @@ main {
   background-color: #dedede;
 }
 
+.input-group {
+  margin-bottom: 1.6rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1em;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: end;
+}
+
 @media (min-width: 768px) {
   header,
   main {
