@@ -1,4 +1,8 @@
 import './style.css';
-import { listRecentScores } from './modules/showScores.js';
+import loadScores from './modules/loadScores.js';
 
-listRecentScores();
+loadScores();
+
+
+
+
