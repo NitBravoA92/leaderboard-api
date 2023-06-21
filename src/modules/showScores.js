@@ -1,10 +1,8 @@
-const insertScoreInDOM = ({ user, score }) => {
+export const insertScoreInDOM = ({ user, score }) => {
   const liElement = document.createElement('li');
   liElement.textContent = `${user}: ${score}`;
   document.querySelector('#scores-list').appendChild(liElement);
 };
-const listRecentScores = (scores) => {
+export const listRecentScores = (scores) => {
   scores.forEach((score) => insertScoreInDOM(score));
 };
-
-export default listRecentScores;
