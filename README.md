@@ -141,9 +141,10 @@ When all the code changes are ready, run the following command to have webpack g
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [x] **Create two sections with HTML to submit and display players score**
-- [ ] **Make Leaderboard API call and get for list of scores**
-- [ ] **Make Leaderboard API call to add a new score**
+- [x] **Create two sections with HTML to submit and display players' score**
+- [x] **Make Leaderboard API call and get for list of scores**
+- [x] **Make Leaderboard API call to add a new score**
+- [ ] **Add the final CSS styles to give it a more attractive design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
