@@ -80,26 +80,28 @@ main {
 }
 
 #scores-list {
-  border: 2px solid #000;
-  border-radius: 0.1rem;
+  border: 1px solid #440170;
+  border-radius: 0.3rem;
   list-style: none;
   overflow-y: scroll;
   height: 280px;
+  background-color: #191c296d;
+  position: relative;
 }
 
 #scores-list li {
   padding: 0.4rem 0.6rem;
   font-size: 1em;
-  background-color: #fff;
+  background-color: transparent;
   transition: background-color 0.3s ease-out;
 }
 
 #scores-list li:nth-child(even) {
-  background-color: #dedede;
+  background-color: rgba(17, 17, 26, 0.5);
 }
 
 #scores-list li:hover {
-  background-color: #dedede;
+  background-color: rgba(17, 17, 26, 0.5);
 }
 
 #add-score-form {
