@@ -1,6 +1,6 @@
 import './style.css';
-import loadScores from './modules/loadScores';
-import saveNewScore from './modules/saveScores';
+import loadScores from './modules/loadScores.js';
+import saveNewScore from './modules/saveScores.js';
 
 loadScores();
 
@@ -22,7 +22,3 @@ btnRefresh.addEventListener('click', () => {
   }, 2000);
   loadScores();
 });
-
-
-
-
