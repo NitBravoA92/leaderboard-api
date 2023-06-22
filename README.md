@@ -144,7 +144,7 @@ When all the code changes are ready, run the following command to have webpack g
 - [x] **Create two sections with HTML to submit and display players' score**
 - [x] **Make Leaderboard API call and get for list of scores**
 - [x] **Make Leaderboard API call to add a new score**
-- [ ] **Add the final CSS styles to give it a more attractive design**
+- [x] **Add the final CSS styles to give it a more attractive design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

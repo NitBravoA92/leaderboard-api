@@ -19,6 +19,10 @@ body {
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header,
@@ -43,7 +47,7 @@ main {
   justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 1.8rem;
+  margin: 1.8rem 0;
 }
 
 .section-title {
@@ -51,51 +55,57 @@ main {
 }
 
 .btn-actions {
-  border: 2px solid #000;
+  border: 2px solid #830297;
   border-radius: 0.2rem;
   outline: none;
   cursor: pointer;
-  background-color: #fff;
-  color: #000;
-  padding: 0.65rem 1.3rem;
+  background: transparent;
+  color: #fff;
+  padding: 0.65rem 1.5rem;
   font-size: 1em;
-  box-shadow: none;
+  box-shadow: #14a5c6ba 0 15px 30px -5px;
   transition: all 0.3s ease-out;
 }
 
 .btn-actions:hover {
+  background: linear-gradient(144deg, #591066, #5b42f3 50%, #14a5c6ba);
+  border-color: transparent;
   box-shadow: rgba(17, 17, 26, 0.1) 0 8px 24px, rgba(17, 17, 26, 0.1) 0 16px 56px, rgba(17, 17, 26, 0.1) 0 24px 80px;
   transform: translateY(-5px);
 }
 
 #refreshing-message {
   width: 100%;
-  color: #b0afaf;
   font-size: 1.5em;
   text-align: center;
+  color: #830297;
+  background: transparent;
+  text-shadow: 0 1px 0 #14a5c6ba, 1px 0 0 #5dabcd, 1px 2px 1px #14a5c6ba, 2px 1px 1px #5dabcd, 2px 3px 2px #14a5c6ba, 3px 2px 2px #5dabcd, 3px 4px 2px #14a5c6ba, 4px 3px 3px #5dabcd, 4px 5px 3px #14a5c6ba, 5px 4px 2px #5dabcd, 5px 6px 2px #14a5c6ba, 6px 5px 2px #5dabcd, 6px 7px 1px #14a5c6ba, 7px 6px 1px #5dabcd, 7px 8px 0 #14a5c6ba, 8px 7px 0 #5dabcd;
 }
 
 #scores-list {
-  border: 2px solid #000;
-  border-radius: 0.1rem;
+  border: 1px solid #440170;
+  border-radius: 0.3rem;
   list-style: none;
   overflow-y: scroll;
-  height: 280px;
+  height: 250px;
+  background-color: #191c296d;
+  position: relative;
 }
 
 #scores-list li {
   padding: 0.4rem 0.6rem;
   font-size: 1em;
-  background-color: #fff;
+  background-color: transparent;
   transition: background-color 0.3s ease-out;
 }
 
 #scores-list li:nth-child(even) {
-  background-color: #dedede;
+  background-color: rgba(17, 17, 26, 0.5);
 }
 
 #scores-list li:hover {
-  background-color: #dedede;
+  background-color: rgba(17, 17, 26, 0.5);
 }
 
 #add-score-form {
@@ -111,6 +121,15 @@ main {
   width: 100%;
   padding: 0.7rem;
   font-size: 1em;
+  background-color: #191c2953;
+  border: 1px solid #440170;
+  border-radius: 0.3rem;
+  color: #fff;
+  outline: none;
+}
+
+.input-group input::placeholder {
+  color: #ffffffa4;
 }
 
 .submit-button {
@@ -121,7 +140,7 @@ main {
 #show-form-results {
   font-weight: 600;
   font-style: italic;
-  color: rgb(10, 155, 73);
+  color: #fff;
 }
 
 @media (min-width: 768px) {
