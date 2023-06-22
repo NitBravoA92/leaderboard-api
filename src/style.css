@@ -19,6 +19,10 @@ body {
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header,
@@ -43,7 +47,7 @@ main {
   justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 1.8rem;
+  margin: 1.8rem 0;
 }
 
 .section-title {
