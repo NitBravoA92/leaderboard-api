@@ -68,12 +68,19 @@ main {
   transform: translateY(-5px);
 }
 
+#refreshing-message {
+  width: 100%;
+  color: #b0afaf;
+  font-size: 1.5em;
+  text-align: center;
+}
+
 #scores-list {
   border: 2px solid #000;
   border-radius: 0.1rem;
   list-style: none;
   overflow-y: scroll;
-  max-height: 250px;
+  height: 280px;
 }
 
 #scores-list li {
