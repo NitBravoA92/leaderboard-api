@@ -15,13 +15,9 @@ const newGameId = async () => {
       'Content-Type': 'application/json; charset=UTF-8'
     }
   };
-  try {
-    const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', options);
-    const data = await response.json();
-    return getGameIdFromMessage(data.result);
-  } catch (error) {
-    return error;
-  }
+  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', options);
+  const data = await response.json();
+  return getGameIdFromMessage(data.result);
 }
 
 export default newGameId;
