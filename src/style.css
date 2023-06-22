@@ -68,7 +68,7 @@ main {
 }
 
 .btn-actions:hover {
-  background: linear-gradient(144deg,#591066, #5B42F3 50%,#14a5c6ba);
+  background: linear-gradient(144deg, #591066, #5b42f3 50%, #14a5c6ba);
   border-color: transparent;
   box-shadow: rgba(17, 17, 26, 0.1) 0 8px 24px, rgba(17, 17, 26, 0.1) 0 16px 56px, rgba(17, 17, 26, 0.1) 0 24px 80px;
   transform: translateY(-5px);
@@ -80,7 +80,7 @@ main {
   text-align: center;
   color: #830297;
   background: transparent;
-  text-shadow: 0 1px 0px #14a5c6ba, 1px 0 0px #5dabcd, 1px 2px 1px #14a5c6ba, 2px 1px 1px #5dabcd, 2px 3px 2px #14a5c6ba, 3px 2px 2px #5dabcd, 3px 4px 2px #14a5c6ba, 4px 3px 3px #5dabcd, 4px 5px 3px #14a5c6ba, 5px 4px 2px #5dabcd, 5px 6px 2px #14a5c6ba, 6px 5px 2px #5dabcd, 6px 7px 1px #14a5c6ba, 7px 6px 1px #5dabcd, 7px 8px 0px #14a5c6ba, 8px 7px 0px #5dabcd;
+  text-shadow: 0 1px 0 #14a5c6ba, 1px 0 0 #5dabcd, 1px 2px 1px #14a5c6ba, 2px 1px 1px #5dabcd, 2px 3px 2px #14a5c6ba, 3px 2px 2px #5dabcd, 3px 4px 2px #14a5c6ba, 4px 3px 3px #5dabcd, 4px 5px 3px #14a5c6ba, 5px 4px 2px #5dabcd, 5px 6px 2px #14a5c6ba, 6px 5px 2px #5dabcd, 6px 7px 1px #14a5c6ba, 7px 6px 1px #5dabcd, 7px 8px 0 #14a5c6ba, 8px 7px 0 #5dabcd;
 }
 
 #scores-list {
