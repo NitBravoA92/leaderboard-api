@@ -140,7 +140,7 @@ main {
 #show-form-results {
   font-weight: 600;
   font-style: italic;
-  color: rgb(10, 155, 73);
+  color: #fff;
 }
 
 @media (min-width: 768px) {
