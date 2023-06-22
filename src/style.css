@@ -68,12 +68,19 @@ main {
   transform: translateY(-5px);
 }
 
+#refreshing-message {
+  width: 100%;
+  color: #b0afaf;
+  font-size: 1.5em;
+  text-align: center;
+}
+
 #scores-list {
   border: 2px solid #000;
   border-radius: 0.1rem;
   list-style: none;
   overflow-y: scroll;
-  max-height: 250px;
+  height: 280px;
 }
 
 #scores-list li {
@@ -93,6 +100,7 @@ main {
 
 #add-score-form {
   width: 100%;
+  margin-bottom: 0.5rem;
 }
 
 .input-group {
@@ -108,6 +116,12 @@ main {
 .submit-button {
   display: flex;
   justify-content: end;
+}
+
+#show-form-results {
+  font-weight: 600;
+  font-style: italic;
+  color: rgb(10, 155, 73);
 }
 
 @media (min-width: 768px) {
