@@ -15,7 +15,8 @@ const newGameId = async () => {
   };
   const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', options);
   const data = await response.json();
-  return getGameIdFromMessage(data.result);
+  const gameId = getGameIdFromMessage(data.result);
+  localStorage.setItem('game-id', gameId);
 };
 
 export default newGameId;

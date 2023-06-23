@@ -3,7 +3,6 @@ import './style.css';
 import loadScores from './modules/loadScores.js';
 import saveNewScore from './modules/saveScores.js';
 
-/* Set a background image to the body */
 document.body.style.backgroundImage = `url(${gameWallpapers})`;
 
 loadScores();
